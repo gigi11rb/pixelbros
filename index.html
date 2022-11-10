@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      .container {
+        position: relative;
+      }
+      img { 
+        width: 100%;
+        height: auto;
+        opacity: 2;
+      }
+      .img2{position: absolute;
+            top: 300px;
+            right: 520px;
+          }
+      .img3{position: absolute;
+            top: 610px;
+            left: 615px;
+          }
+      .videos{position: absolute;
+            top: 640px;
+            right: 1000px;
+          }  
+      .txt{position: absolute;
+            top: 100px;
+            right: 410px;
+          } 
+      .txt2{position: absolute;
+            top: 590px;
+            right: 1000px;
+          }
+      .txt3{position: absolute;
+            top: 650px;
+            left: 800px;
+          }   
+      .txt4{position: absolute;
+            top: 900px;
+            left: 360px;
+          }    
+      </style>
     <meta charset="utf-8">
     <meta name="description" content="Pixel Bros online shooting game developed by Gigi Robakidze, pixel bros very addictive game , enjoy playing pixel bros ">
-    <title>Pixel bros online shooting game</title>
+    <title>Pixel bros online action game</title>
   </head>
   <body>
-   
-    <a href="https://play.unity.com/mg/other/webgl-builds-265458">Play Pixel Bros</a>.
+    <div class="container">
+      <img src="bg.png" alt="bg" width="1000" height="300">
+    </div>
+    <div>
+      <img src="master.png" alt="master" class="img3" style ="width:250px;height:250px;" width="10" height="10">
+    </div>
+    <a href="https://play.unity.com/mg/other/webgl-builds-265458">
+      <img src="play.png" alt="play" class ="img2" style ="width:410px;height:250px;" width="200" height=" 100">
+    </a>
+    <div class="txt"> <h style= "color:blue; font-size: 110px;" >PIXEL BROS</h></div>
+    <div class="txt4"> <h style= "color:blue; font-size: 60px;" >ABOUT PIXEL BROS</h></div>
+    <div class="txt2"> <h2 style= "color:red; font-size: 40px;" >treiler of pixel bros</h2></div>
+    <div class="txt3"> <h3 style= "color:gray; font-size: 25px;" >MASTER advise: I recomend you to play pixel bros, it has lot's of features, different characters on each 
+    level and you don't even have an idea what's comming up next!</h3></div>
+    <video class ="videos" width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+    </video>
   </body>
 </html>

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/main_menu.unity
+    guid: dc68e804e93074064b6e415f47246a20
+  - enabled: 1
+    path: Assets/Scenes/game/s1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/game/s2.unity
+    guid: 5413bed5ec8c44794891d1fb613c36e5
+  - enabled: 1
+    path: Assets/Scenes/game/s3.unity
+    guid: bb04ecc37b68e460a8336e70596ef087
+  - enabled: 1
+    path: Assets/Scenes/game/s4.unity
+    guid: b76c64c6b92bb488a88641b2ee2d8665
+  - enabled: 1
+    path: Assets/Scenes/tutorial/tutorial.unity
+    guid: 3b01f23f325404a188a1cf2320e3efd3
+  - enabled: 1
+    path: Assets/Scenes/caracter_selection/selection.unity
+    guid: e2013ab97c5b84e96b02ae92bd136602
+  - enabled: 1
+    path: Assets/Scenes/play.unity
+    guid: 1e868f7f8b51d4332964dc6446d9ab1b
+  - enabled: 1
+    path: Assets/Scenes/play1.unity
+    guid: 832968946c95c4f4f927433513db2e0f
+  - enabled: 1
+    path: Assets/Scenes/game 1/p1s1.unity
+    guid: 1ee4c2a3527bf4a548062c3f0543bbd7
+  - enabled: 1
+    path: Assets/Scenes/game 1/p1s2.unity
+    guid: b704b63f5c60e41e6a5ed09001792f4d
+  - enabled: 1
+    path: Assets/Scenes/game 1/p1s3.unity
+    guid: 95edc9990401e42f09cd9ed5a804cb34
+  - enabled: 1
+    path: Assets/Scenes/game 1/p1s4.unity
+    guid: 15fc289f2964e415e8b8bcf244946dfc
+  - enabled: 1
+    path: Assets/Scenes/game 1/p1s5.unity
+    guid: 2427169e459324a9f88bdde65e55c3ee
+  - enabled: 1
+    path: Assets/Scenes/game 1/p1s6.unity
+    guid: 680225957870f4cbab51df025566f467
+  - enabled: 1
+    path: Assets/Scenes/game 1/end.unity
+    guid: 5959f2156717040acade0580270ffe07
+  - enabled: 1
+    path: Assets/Scenes/settings.unity
+    guid: 577c56e0064624667bcddde8f16f6288
+  - enabled: 1
+    path: Assets/Scenes/game 1/master.unity
+    guid: ab820b95dd73841a09b5a5625fa9a51c
+  - enabled: 1
+    path: Assets/Scenes/play2.unity
+    guid: 9bb96a658682a464796ca19126118948
+  m_configObjects: {}
